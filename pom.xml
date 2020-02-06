@@ -27,7 +27,7 @@
     <hibernate.version>5.4.10.Final</hibernate.version>
     <hibernate.validator.version>6.1.2.Final</hibernate.validator.version>
     <validation-api.version>2.0.1.Final</validation-api.version>
-    <c3p0.version>0.9.5.4</c3p0.version>
+    <c3p0.version>0.9.5.5</c3p0.version>
     <shiro.version>1.4.2</shiro.version>
     <jackson.version>2.10.2</jackson.version>
     <jackson-databind.version>2.10.2</jackson-databind.version>
