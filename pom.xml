@@ -39,7 +39,7 @@
     <activemq.version>5.15.11</activemq.version>
     <quartz.version>2.3.2</quartz.version>
     <xerces.version>2.12.0</xerces.version>
-    <jettison.version>1.2</jettison.version>
+    <jettison.version>1.4.0</jettison.version>
     <mockito.version>3.2.4</mockito.version>
     <environment>dev</environment>
     <skipTests>false</skipTests>
