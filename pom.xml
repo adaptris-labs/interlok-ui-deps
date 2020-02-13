@@ -27,8 +27,8 @@
     <hibernate.version>5.4.10.Final</hibernate.version>
     <hibernate.validator.version>6.1.2.Final</hibernate.validator.version>
     <validation-api.version>2.0.1.Final</validation-api.version>
-    <c3p0.version>0.9.5.4</c3p0.version>
-    <shiro.version>1.4.2</shiro.version>
+    <c3p0.version>0.9.5.5</c3p0.version>
+    <shiro.version>1.5.0</shiro.version>
     <jackson.version>2.10.2</jackson.version>
     <jackson-databind.version>2.10.2</jackson-databind.version>
     <jetty.version>9.4.26.v20200117</jetty.version>
@@ -698,7 +698,7 @@
     <dependency>
       <groupId>org.reflections</groupId>
       <artifactId>reflections</artifactId>
-      <version>0.9.11</version>
+      <version>0.9.12</version>
     </dependency>
     <dependency>
       <groupId>org.flywaydb</groupId>
@@ -723,7 +723,7 @@
     <dependency>
       <groupId>org.jsoup</groupId>
       <artifactId>jsoup</artifactId>
-      <version>1.9.1</version>
+      <version>1.12.2</version>
     </dependency>
     <dependency>
       <groupId>com.adaptris</groupId>
@@ -1519,7 +1519,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-pmd-plugin</artifactId>
-        <version>3.12.0</version>
+        <version>3.13.0</version>
         <configuration>
           <linkXref>true</linkXref>
           <sourceEncoding>${encoding}</sourceEncoding>
