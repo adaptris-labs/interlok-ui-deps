@@ -251,7 +251,7 @@
     <dependency>
       <groupId>org.hibernate.javax.persistence</groupId>
       <artifactId>hibernate-jpa-2.1-api</artifactId>
-      <version>1.0.2.Final</version>
+      <version>1.0.2.Final-redhat-1</version>
       <scope>${adapter.library.scope}</scope>
     </dependency>
     <dependency>
@@ -1364,7 +1364,7 @@
           <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
             <artifactId>hibernate-jpa-2.1-api</artifactId>
-            <version>1.0.0.Final</version>
+            <version>1.0.2.Final-redhat-1</version>
           </dependency>
           <dependency>
             <groupId>org.hibernate.validator</groupId>
