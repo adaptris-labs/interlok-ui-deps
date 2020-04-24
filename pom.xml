@@ -544,7 +544,7 @@
     <dependency>
       <groupId>com.sun.mail</groupId>
       <artifactId>jakarta.mail</artifactId>
-      <version>1.6.4</version>
+      <version>1.6.5</version>
       <scope>${adapter.library.scope}</scope>
     </dependency>
     <dependency>
@@ -1342,7 +1342,7 @@
           <dependency>
             <groupId>com.sun.mail</groupId>
             <artifactId>jakarta.mail</artifactId>
-            <version>1.6.4</version>
+            <version>1.6.5</version>
           </dependency>
           <dependency>
             <groupId>com.thoughtworks.xstream</groupId>
