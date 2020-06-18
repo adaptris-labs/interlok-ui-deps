@@ -31,7 +31,7 @@
     <shiro.version>1.5.3</shiro.version>
     <jackson.version>2.11.0</jackson.version>
     <jackson-databind.version>2.11.0</jackson-databind.version>
-    <jetty.version>9.4.29.v20200521</jetty.version>
+    <jetty.version>9.4.30.v20200611</jetty.version>
     <jersey.version>2.31</jersey.version>
     <swagger.version>1.6.1</swagger.version>
     <swagger-v3.version>2.1.2</swagger-v3.version>
@@ -697,7 +697,7 @@
     <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-core</artifactId>
-      <version>6.4.3</version>
+      <version>6.4.4</version>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
@@ -1090,7 +1090,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
-        <version>3.2.3</version>
+        <version>3.3.0</version>
         <configuration>
           <filters>
             <filter>${basedir}/src/main/filters/${environment}.filter.properties</filter>
