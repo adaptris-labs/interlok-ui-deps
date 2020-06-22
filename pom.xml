@@ -20,7 +20,7 @@
     <!-- This is to force the "test" scope to use the snapshot version so that
         we remove timing issues from the release build :(
     -->
-    <adapter.test.scope.version>3.10-SNAPSHOT</adapter.test.scope.version>
+    <adapter.test.scope.version>3.10.2B1-RELEASE</adapter.test.scope.version>
     <spring.version>4.3.22.RELEASE</spring.version>
     <xstream.version>1.4.12</xstream.version>
     <derby.version>10.14.2.0</derby.version>
