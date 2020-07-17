@@ -15,12 +15,12 @@
     <url>http://www.adaptris.com</url>
   </organization>
   <properties>
-    <ui.version>3.10-SNAPSHOT</ui.version>
+    <ui.version>3.11-SNAPSHOT</ui.version>
     <adapter.version>${ui.version}</adapter.version>
     <!-- This is to force the "test" scope to use the snapshot version so that
         we remove timing issues from the release build :(
     -->
-    <adapter.test.scope.version>3.10-SNAPSHOT</adapter.test.scope.version>
+    <adapter.test.scope.version>3.11-SNAPSHOT</adapter.test.scope.version>
     <spring.version>4.3.22.RELEASE</spring.version>
     <xstream.version>1.4.12</xstream.version>
     <derby.version>10.14.2.0</derby.version>
@@ -29,12 +29,12 @@
     <validation-api.version>2.0.2</validation-api.version>
     <c3p0.version>0.9.5.5</c3p0.version>
     <shiro.version>1.5.3</shiro.version>
-    <jackson.version>2.11.0</jackson.version>
-    <jackson-databind.version>2.11.0</jackson-databind.version>
+    <jackson.version>2.11.1</jackson.version>
+    <jackson-databind.version>2.11.1</jackson-databind.version>
     <jetty.version>9.4.30.v20200611</jetty.version>
     <jersey.version>2.31</jersey.version>
-    <swagger.version>1.6.1</swagger.version>
-    <swagger-v3.version>2.1.2</swagger-v3.version>
+    <swagger.version>1.6.2</swagger.version>
+    <swagger-v3.version>2.1.3</swagger-v3.version>
     <slf4j.version>1.7.30</slf4j.version>
     <bouncycastle.version>1.65</bouncycastle.version>
     <activemq.version>5.15.11</activemq.version>
@@ -697,7 +697,7 @@
     <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-core</artifactId>
-      <version>6.4.4</version>
+      <version>6.5.1</version>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
@@ -1490,7 +1490,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
-        <version>3.9.0</version>
+        <version>3.9.1</version>
       </plugin>
       <plugin>
         <groupId>org.owasp</groupId>
@@ -1539,7 +1539,7 @@
       <plugin>
         <groupId>com.github.spotbugs</groupId>
         <artifactId>spotbugs-maven-plugin</artifactId>
-        <version>4.0.0</version>
+        <version>4.0.4</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
