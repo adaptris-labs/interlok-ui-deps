@@ -16,7 +16,7 @@
   </organization>
   <properties>
     <ui.version>3.11-SNAPSHOT</ui.version>
-    <adapter.version>${ui.version}</adapter.version>
+    <adapter.version>3.11.0-RELEASE</adapter.version>
     <!-- This is to force the "test" scope to use the snapshot version so that
         we remove timing issues from the release build :(
     -->
