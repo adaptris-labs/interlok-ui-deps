@@ -25,7 +25,7 @@
     <xstream.version>1.4.13</xstream.version>
     <derby.version>10.14.2.0</derby.version>
     <hibernate.version>5.4.20.Final</hibernate.version>
-    <hibernate.validator.version>6.1.5.Final</hibernate.validator.version>
+    <hibernate.validator.version>6.1.6.Final</hibernate.validator.version>
     <validation-api.version>2.0.2</validation-api.version>
     <c3p0.version>0.9.5.5</c3p0.version>
     <shiro.version>1.6.0</shiro.version>
@@ -43,7 +43,7 @@
     <jettison.version>1.2</jettison.version>
     <mockito.version>3.5.13</mockito.version>
     <commons.lang3.version>3.11</commons.lang3.version>
-    <dependency.check.maven.version>6.0.1</dependency.check.maven.version>
+    <dependency.check.maven.version>6.0.2</dependency.check.maven.version>
     <environment>dev</environment>
     <skipTests>false</skipTests>
     <skip.purge>true</skip.purge>
@@ -253,7 +253,7 @@
     <dependency>
       <groupId>org.glassfish</groupId>
       <artifactId>javax.el</artifactId>
-      <version>3.0.1-b11</version>
+      <version>3.0.1-b12</version>
       <scope>${adapter.library.scope}</scope>
     </dependency>
     <dependency>
@@ -326,7 +326,7 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-pool2</artifactId>
-      <version>2.8.1</version>
+      <version>2.9.0</version>
       <scope>${adapter.library.scope}</scope>
     </dependency>
     <dependency>
@@ -464,7 +464,7 @@
     <dependency>
       <groupId>commons-net</groupId>
       <artifactId>commons-net</artifactId>
-      <version>3.7</version>
+      <version>3.7.2</version>
       <scope>${adapter.library.scope}</scope>
     </dependency>
     <dependency>
@@ -698,7 +698,7 @@
     <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-core</artifactId>
-      <version>7.0.2</version>
+      <version>7.0.4</version>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
@@ -1231,7 +1231,7 @@
           <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-pool2</artifactId>
-            <version>2.8.0</version>
+            <version>2.9.0</version>
           </dependency>
           <dependency>
             <groupId>org.apache.commons</groupId>
@@ -1311,7 +1311,7 @@
           <dependency>
             <groupId>commons-net</groupId>
             <artifactId>commons-net</artifactId>
-            <version>3.6</version>
+            <version>3.7.2</version>
           </dependency>
           <dependency>
             <groupId>org.apache.commons</groupId>
@@ -1391,7 +1391,7 @@
           <dependency>
 	        <groupId>org.glassfish</groupId>
             <artifactId>javax.el</artifactId>
-            <version>3.0.1-b11</version>
+            <version>3.0.1-b12</version>
           </dependency>
           <dependency>
             <groupId>com.adaptris</groupId>
@@ -1465,7 +1465,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.5</version>
+        <version>0.8.6</version>
         <executions>
           <execution>
             <id>pre-unit-test</id>
@@ -1571,7 +1571,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.5</version>
+        <version>0.8.6</version>
         <configuration>
           <!-- Sets the path to the file which contains the execution data. -->
           <destFile>${jacoco.exec.path}</destFile>
