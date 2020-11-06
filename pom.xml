@@ -43,7 +43,7 @@
     <jettison.version>1.2</jettison.version>
     <mockito.version>3.6.0</mockito.version>
     <commons.lang3.version>3.11</commons.lang3.version>
-    <dependency.check.maven.version>6.0.2</dependency.check.maven.version>
+    <dependency.check.maven.version>6.0.3</dependency.check.maven.version>
     <environment>dev</environment>
     <skipTests>false</skipTests>
     <skip.purge>true</skip.purge>
