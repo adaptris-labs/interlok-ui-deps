@@ -849,7 +849,6 @@
           <!-- Should not be filtered -->
           <exclude>docs/jars/interlok-core-TEST-javadoc.jar</exclude>
           <exclude>docs/jars/interlok-core-TEST-javadoc.no-package-list.jar</exclude>
-          <exclude>docs/jars/interlok-core-TEST-javadoc.jar</exclude>
           <exclude>project-action/project-xinclude.zip</exclude>
           <exclude>zip-test/zip-test-folder-corrupted.zip</exclude>
         </excludes>
@@ -870,7 +869,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-resources-plugin</artifactId>
-        <version>3.1.0</version>
+        <version>3.2.0</version>
         <executions>
           <execution>
             <id>replace-pom-placeholder</id>
