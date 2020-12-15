@@ -21,8 +21,8 @@
         we remove timing issues from the release build :(
     -->
     <adapter.test.scope.version>3.12-SNAPSHOT</adapter.test.scope.version>
-    <spring.version>4.3.22.RELEASE</spring.version>
-    <xstream.version>1.4.14</xstream.version>
+    <spring.version>4.3.30.RELEASE</spring.version>
+    <xstream.version>1.4.15</xstream.version>
     <derby.version>10.14.2.0</derby.version>
     <hibernate.version>5.4.20.Final</hibernate.version>
     <hibernate.validator.version>6.1.6.Final</hibernate.validator.version>
