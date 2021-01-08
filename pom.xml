@@ -32,16 +32,16 @@
     <jackson.version>2.12.0</jackson.version>
     <jackson-databind.version>2.12.0</jackson-databind.version>
     <jetty.version>9.4.35.v20201120</jetty.version>
-    <jersey.version>2.32</jersey.version>
+    <jersey.version>2.33</jersey.version>
     <swagger.version>1.6.2</swagger.version>
     <swagger-v3.version>2.1.6</swagger-v3.version>
     <slf4j.version>1.7.30</slf4j.version>
-    <bouncycastle.version>1.66</bouncycastle.version>
+    <bouncycastle.version>1.68</bouncycastle.version>
     <activemq.version>5.15.11</activemq.version>
     <quartz.version>2.3.2</quartz.version>
-    <xerces.version>2.12.0</xerces.version>
+    <xerces.version>2.12.1</xerces.version>
     <jettison.version>1.2</jettison.version>
-    <mockito.version>3.6.28</mockito.version>
+    <mockito.version>3.7.0</mockito.version>
     <commons.lang3.version>3.11</commons.lang3.version>
     <dependency.check.maven.version>6.0.3</dependency.check.maven.version>
     <environment>dev</environment>
