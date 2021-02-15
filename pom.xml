@@ -28,7 +28,7 @@
     <hibernate.validator.version>6.1.7.Final</hibernate.validator.version>
     <validation-api.version>2.0.2</validation-api.version>
     <c3p0.version>0.9.5.5</c3p0.version>
-    <shiro.version>1.7.0</shiro.version>
+    <shiro.version>1.7.1</shiro.version>
     <jackson.version>2.12.1</jackson.version>
     <jackson-databind.version>2.12.1</jackson-databind.version>
     <jetty.version>9.4.36.v20210114</jetty.version>
@@ -43,7 +43,7 @@
     <jettison.version>1.2</jettison.version>
     <mockito.version>3.7.7</mockito.version>
     <commons.lang3.version>3.11</commons.lang3.version>
-    <dependency.check.maven.version>6.0.5</dependency.check.maven.version>
+    <dependency.check.maven.version>6.1.0</dependency.check.maven.version>
     <environment>dev</environment>
     <skipTests>false</skipTests>
     <skip.purge>true</skip.purge>
@@ -700,7 +700,7 @@
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>29.0-jre</version>
+      <version>30.1-jre</version>
     </dependency>
     <dependency>
       <groupId>org.reflections</groupId>
@@ -752,6 +752,10 @@
         <exclusion>
           <groupId>io.swagger</groupId>
           <artifactId>swagger-codegen</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>io.swagger.parser.v3</groupId>
+          <artifactId>swagger-parser-v2-converter</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
@@ -860,7 +864,7 @@
         <excludes>
           <!-- Should not be filtered -->
           <exclude>docs/jars/interlok-core-TEST-javadoc.jar</exclude>
-          <exclude>docs/jars/interlok-core-TEST-javadoc.no-package-list.jar</exclude>
+          <exclude>docs/jars/interlok-core-TEST-javadoc.no-element-list.jar</exclude>
           <exclude>project-action/project-xinclude.zip</exclude>
           <exclude>zip-test/zip-test-folder-corrupted.zip</exclude>
         </excludes>
@@ -871,7 +875,7 @@
         <includes>
           <!-- Should not be filtered -->
           <include>docs/jars/interlok-core-TEST-javadoc.jar</include>
-          <include>docs/jars/interlok-core-TEST-javadoc.no-package-list.jar</include>
+          <include>docs/jars/interlok-core-TEST-javadoc.no-element-list.jar</include>
           <include>project-action/project-xinclude.zip</include>
           <include>zip-test/zip-test-folder-corrupted.zip</include>
         </includes>
@@ -1267,6 +1271,11 @@
           <dependency>
             <groupId>com.adaptris</groupId>
             <artifactId>interlok-service-tester</artifactId>
+            <version>${adapter.version}</version>
+          </dependency>
+          <dependency>
+            <groupId>com.adaptris</groupId>
+            <artifactId>interlok-service-tester-wiremock</artifactId>
             <version>${adapter.version}</version>
           </dependency>
           <dependency>
