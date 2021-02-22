@@ -464,7 +464,7 @@
     <dependency>
       <groupId>commons-net</groupId>
       <artifactId>commons-net</artifactId>
-      <version>3.7.2</version>
+      <version>3.8.0</version>
       <scope>${adapter.library.scope}</scope>
     </dependency>
     <dependency>
@@ -1331,7 +1331,7 @@
           <dependency>
             <groupId>commons-net</groupId>
             <artifactId>commons-net</artifactId>
-            <version>3.7.2</version>
+            <version>3.8.0</version>
           </dependency>
           <dependency>
             <groupId>org.apache.commons</groupId>
