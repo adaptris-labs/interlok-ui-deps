@@ -21,7 +21,7 @@
         we remove timing issues from the release build :(
     -->
     <adapter.test.scope.version>4.0-SNAPSHOT</adapter.test.scope.version>
-    <spring.version>5.3.3</spring.version>
+    <spring.version>5.3.4</spring.version>
     <xstream.version>1.4.15</xstream.version>
     <derby.version>10.15.2.0</derby.version>
     <hibernate.version>5.4.27.Final</hibernate.version>
@@ -34,14 +34,14 @@
     <jetty.version>9.4.36.v20210114</jetty.version>
     <jersey.version>2.33</jersey.version>
     <swagger.version>1.6.2</swagger.version>
-    <swagger-v3.version>2.1.6</swagger-v3.version>
+    <swagger-v3.version>2.1.7</swagger-v3.version>
     <slf4j.version>1.7.30</slf4j.version>
     <bouncycastle.version>1.68</bouncycastle.version>
     <activemq.version>5.15.11</activemq.version>
     <quartz.version>2.3.2</quartz.version>
     <xerces.version>2.12.1</xerces.version>
     <jettison.version>1.2</jettison.version>
-    <mockito.version>3.7.7</mockito.version>
+    <mockito.version>3.8.0</mockito.version>
     <commons.lang3.version>3.11</commons.lang3.version>
     <dependency.check.maven.version>6.1.1</dependency.check.maven.version>
     <environment>dev</environment>
@@ -464,7 +464,7 @@
     <dependency>
       <groupId>commons-net</groupId>
       <artifactId>commons-net</artifactId>
-      <version>3.7.2</version>
+      <version>3.8.0</version>
       <scope>${adapter.library.scope}</scope>
     </dependency>
     <dependency>
@@ -592,7 +592,7 @@
     <dependency>
       <groupId>org.yaml</groupId>
       <artifactId>snakeyaml</artifactId>
-      <version>1.27</version>
+      <version>1.28</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.jaxrs</groupId>
@@ -710,7 +710,7 @@
     <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-core</artifactId>
-      <version>7.5.3</version>
+      <version>7.5.4</version>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
