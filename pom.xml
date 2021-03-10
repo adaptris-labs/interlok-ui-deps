@@ -30,7 +30,7 @@
     <c3p0.version>0.9.5.5</c3p0.version>
     <shiro.version>1.7.1</shiro.version>
     <jackson.version>2.12.1</jackson.version>
-    <jackson-databind.version>2.12.1</jackson-databind.version>
+    <jackson-databind.version>2.12.2</jackson-databind.version>
     <jetty.version>9.4.38.v20210224</jetty.version>
     <jersey.version>2.33</jersey.version>
     <swagger.version>1.6.2</swagger.version>
@@ -43,7 +43,8 @@
     <jettison.version>1.2</jettison.version>
     <mockito.version>3.8.0</mockito.version>
     <commons.lang3.version>3.12.0</commons.lang3.version>
-    <dependency.check.maven.version>6.1.1</dependency.check.maven.version>
+    <jsch.version>0.1.62</jsch.version>
+    <dependency.check.maven.version>6.1.2</dependency.check.maven.version>
     <environment>dev</environment>
     <skipTests>false</skipTests>
     <skip.purge>true</skip.purge>
@@ -385,7 +386,7 @@
     </dependency>
     <dependency>
       <groupId>com.adaptris</groupId>
-      <artifactId>interlok-socket</artifactId>
+      <artifactId>interlok-mail</artifactId>
       <version>${adapter.test.scope.version}</version>
       <scope>test</scope>
     </dependency>
@@ -492,9 +493,9 @@
       <scope>${adapter.library.scope}</scope>
     </dependency>
     <dependency>
-      <groupId>com.jcraft</groupId>
+      <groupId>com.github.mwiede</groupId>
       <artifactId>jsch</artifactId>
-      <version>0.1.55</version>
+      <version>${jsch.version}</version>
       <scope>${adapter.library.scope}</scope>
     </dependency>
     <dependency>
@@ -1349,9 +1350,9 @@
             <version>2.0.8</version>
           </dependency>
           <dependency>
-            <groupId>com.jcraft</groupId>
+            <groupId>com.github.mwiede</groupId>
             <artifactId>jsch</artifactId>
-            <version>0.1.55</version>
+            <version>${jsch.version}</version>
           </dependency>
           <dependency>
             <groupId>net.sf.joost</groupId>
