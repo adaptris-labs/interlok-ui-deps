@@ -31,7 +31,7 @@
     <shiro.version>1.7.1</shiro.version>
     <jackson.version>2.12.1</jackson.version>
     <jackson-databind.version>2.12.2</jackson-databind.version>
-    <jetty.version>9.4.38.v20210224</jetty.version>
+    <jetty.version>9.4.39.v20210325</jetty.version>
     <jersey.version>2.33</jersey.version>
     <swagger.version>1.6.2</swagger.version>
     <swagger-v3.version>2.1.7</swagger-v3.version>
@@ -41,10 +41,10 @@
     <quartz.version>2.3.2</quartz.version>
     <xerces.version>2.12.1</xerces.version>
     <jettison.version>1.2</jettison.version>
-    <mockito.version>3.8.0</mockito.version>
+    <mockito.version>3.9.0</mockito.version>
     <commons.lang3.version>3.12.0</commons.lang3.version>
     <jsch.version>0.1.62</jsch.version>
-    <dependency.check.maven.version>6.1.3</dependency.check.maven.version>
+    <dependency.check.maven.version>6.1.5</dependency.check.maven.version>
     <environment>dev</environment>
     <skipTests>false</skipTests>
     <skip.purge>true</skip.purge>
@@ -711,7 +711,7 @@
     <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-core</artifactId>
-      <version>7.7.0</version>
+      <version>7.7.3</version>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
@@ -1262,11 +1262,6 @@
           <dependency>
             <groupId>com.adaptris</groupId>
             <artifactId>interlok-logging</artifactId>
-            <version>${adapter.version}</version>
-          </dependency>
-          <dependency>
-            <groupId>com.adaptris</groupId>
-            <artifactId>interlok-socket</artifactId>
             <version>${adapter.version}</version>
           </dependency>
           <dependency>
