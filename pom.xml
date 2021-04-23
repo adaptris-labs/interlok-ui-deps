@@ -34,10 +34,10 @@
     <jetty.version>9.4.39.v20210325</jetty.version>
     <jersey.version>2.33</jersey.version>
     <swagger.version>1.6.2</swagger.version>
-    <swagger-v3.version>2.1.7</swagger-v3.version>
+    <swagger-v3.version>2.1.9</swagger-v3.version>
     <slf4j.version>1.7.30</slf4j.version>
     <bouncycastle.version>1.68</bouncycastle.version>
-    <activemq.version>5.15.11</activemq.version>
+    <activemq.version>5.16.1</activemq.version>
     <quartz.version>2.3.2</quartz.version>
     <xerces.version>2.12.1</xerces.version>
     <jettison.version>1.2</jettison.version>
@@ -127,7 +127,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.13.1</version>
+      <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -523,7 +523,7 @@
     <dependency>
       <groupId>net.sf.saxon</groupId>
       <artifactId>Saxon-HE</artifactId>
-      <version>10.3</version>
+      <version>10.5</version>
       <scope>${adapter.library.scope}</scope>
     </dependency>
     <dependency>
@@ -701,7 +701,7 @@
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>30.1-jre</version>
+      <version>30.1.1-jre</version>
     </dependency>
     <dependency>
       <groupId>org.reflections</groupId>
@@ -711,7 +711,7 @@
     <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-core</artifactId>
-      <version>7.7.3</version>
+      <version>7.8.1</version>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
@@ -764,18 +764,6 @@
       <groupId>org.jsoup</groupId>
       <artifactId>jsoup</artifactId>
       <version>1.13.1</version>
-    </dependency>
-    <dependency>
-      <groupId>com.adaptris</groupId>
-      <artifactId>interlok-profiler</artifactId>
-      <version>${adapter.version}</version>
-      <scope>${adapter.library.scope}</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.adaptris</groupId>
-      <artifactId>interlok-monitor-agent</artifactId>
-      <version>${adapter.version}</version>
-      <scope>${adapter.library.scope}</scope>
     </dependency>
   </dependencies>
   <repositories>
@@ -1415,16 +1403,6 @@
             <artifactId>javax.el</artifactId>
             <version>3.0.1-b12</version>
           </dependency>
-          <dependency>
-            <groupId>com.adaptris</groupId>
-            <artifactId>interlok-profiler</artifactId>
-            <version>${adapter.version}</version>
-          </dependency>
-          <dependency>
-            <groupId>com.adaptris</groupId>
-            <artifactId>interlok-monitor-agent</artifactId>
-            <version>${adapter.version}</version>
-          </dependency>
         </dependencies>
         <configuration>
           <webApp>
@@ -1568,7 +1546,7 @@
       <plugin>
         <groupId>com.github.spotbugs</groupId>
         <artifactId>spotbugs-maven-plugin</artifactId>
-        <version>4.2.2</version>
+        <version>4.2.3</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
