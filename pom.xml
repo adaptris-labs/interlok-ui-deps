@@ -24,7 +24,7 @@
     <spring.version>5.3.6</spring.version>
     <xstream.version>1.4.16</xstream.version>
     <derby.version>10.15.2.0</derby.version>
-    <hibernate.version>5.4.29.Final</hibernate.version>
+    <hibernate.version>5.4.31.Final</hibernate.version>
     <hibernate.validator.version>6.1.7.Final</hibernate.validator.version>
     <validation-api.version>2.0.2</validation-api.version>
     <c3p0.version>0.9.5.5</c3p0.version>
@@ -37,14 +37,14 @@
     <swagger-v3.version>2.1.9</swagger-v3.version>
     <slf4j.version>1.7.30</slf4j.version>
     <bouncycastle.version>1.68</bouncycastle.version>
-    <activemq.version>5.16.1</activemq.version>
+    <activemq.version>5.16.2</activemq.version>
     <quartz.version>2.3.2</quartz.version>
     <xerces.version>2.12.1</xerces.version>
     <jettison.version>1.2</jettison.version>
     <mockito.version>3.9.0</mockito.version>
     <commons.lang3.version>3.12.0</commons.lang3.version>
     <jsch.version>0.1.62</jsch.version>
-    <dependency.check.maven.version>6.1.5</dependency.check.maven.version>
+    <dependency.check.maven.version>6.1.6</dependency.check.maven.version>
     <environment>dev</environment>
     <skipTests>false</skipTests>
     <skip.purge>true</skip.purge>
@@ -711,7 +711,7 @@
     <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-core</artifactId>
-      <version>7.8.1</version>
+      <version>7.8.2</version>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
@@ -1465,7 +1465,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.6</version>
+        <version>0.8.7</version>
         <executions>
           <execution>
             <id>pre-unit-test</id>
@@ -1571,7 +1571,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.6</version>
+        <version>0.8.7</version>
         <configuration>
           <!-- Sets the path to the file which contains the execution data. -->
           <destFile>${jacoco.exec.path}</destFile>
