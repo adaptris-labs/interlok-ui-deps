@@ -748,7 +748,7 @@
     <dependency>
       <groupId>com.adaptris</groupId>
       <artifactId>interlok-swagger-codegen-generators</artifactId>
-      <version>1.0.21</version>
+      <version>1.0.25</version>
       <exclusions>
         <exclusion>
           <groupId>io.swagger</groupId>
