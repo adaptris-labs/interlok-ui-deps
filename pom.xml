@@ -44,7 +44,7 @@
     <mockito.version>3.10.0</mockito.version>
     <commons.lang3.version>3.12.0</commons.lang3.version>
     <jsch.version>0.1.62</jsch.version>
-    <dependency.check.maven.version>6.1.6</dependency.check.maven.version>
+    <dependency.check.maven.version>6.2.0</dependency.check.maven.version>
     <environment>dev</environment>
     <skipTests>false</skipTests>
     <skip.purge>true</skip.purge>
