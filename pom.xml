@@ -741,7 +741,7 @@
     <dependency>
       <groupId>com.adaptris</groupId>
       <artifactId>interlok-swagger-codegen-generators</artifactId>
-      <version>1.0.25</version>
+      <version>1.0.26</version>
       <exclusions>
         <exclusion>
           <groupId>io.swagger</groupId>
@@ -1509,6 +1509,9 @@
         <version>${dependency.check.maven.version}</version>
         <configuration>
           <skip>${skip.owasp}</skip>
+          <suppressionFiles>
+            <suppressionFile>owasp-suppression.xml</suppressionFile>
+          </suppressionFiles>
         </configuration>
         <executions>
           <execution>
@@ -1590,6 +1593,9 @@
         <version>${dependency.check.maven.version}</version>
         <configuration>
           <skip>${skip.owasp}</skip>
+          <suppressionFiles>
+            <suppressionFile>owasp-suppression.xml</suppressionFile>
+          </suppressionFiles>
         </configuration>
       </plugin>
     </plugins>
