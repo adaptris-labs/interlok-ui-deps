@@ -29,13 +29,13 @@
     <validation-api.version>2.0.2</validation-api.version>
     <c3p0.version>0.9.5.5</c3p0.version>
     <shiro.version>1.7.1</shiro.version>
-    <jackson.version>2.12.3</jackson.version>
-    <jackson-databind.version>2.12.3</jackson-databind.version>
-    <jetty.version>9.4.41.v20210516</jetty.version>
+    <jackson.version>2.12.4</jackson.version>
+    <jackson-databind.version>2.12.4</jackson-databind.version>
+    <jetty.version>9.4.43.v20210629</jetty.version>
     <jersey.version>2.34</jersey.version>
     <swagger.version>1.6.2</swagger.version>
     <swagger-v3.version>2.1.10</swagger-v3.version>
-    <slf4j.version>1.7.30</slf4j.version>
+    <slf4j.version>1.7.31</slf4j.version>
     <bouncycastle.version>1.69</bouncycastle.version>
     <activemq.version>5.16.2</activemq.version>
     <quartz.version>2.3.2</quartz.version>
