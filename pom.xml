@@ -41,7 +41,7 @@
     <quartz.version>2.3.2</quartz.version>
     <xerces.version>2.12.1</xerces.version>
     <jettison.version>1.4.1</jettison.version>
-    <mockito.version>3.11.2</mockito.version>
+    <mockito.version>4.0.0</mockito.version>
     <commons.lang3.version>3.12.0</commons.lang3.version>
     <jsch.version>0.1.63</jsch.version>
     <dependency.check.maven.version>6.2.2</dependency.check.maven.version>
