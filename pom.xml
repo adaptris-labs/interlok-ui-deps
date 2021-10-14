@@ -40,7 +40,7 @@
     <activemq.version>5.16.2</activemq.version>
     <quartz.version>2.3.2</quartz.version>
     <xerces.version>2.12.1</xerces.version>
-    <jettison.version>1.2</jettison.version>
+    <jettison.version>1.4.1</jettison.version>
     <mockito.version>3.11.2</mockito.version>
     <commons.lang3.version>3.12.0</commons.lang3.version>
     <jsch.version>0.1.63</jsch.version>
@@ -647,6 +647,29 @@
           <artifactId>junit</artifactId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>5.0.3</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>3.141.59</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-remote-driver</artifactId>
+      <version>3.141.59</version>
+    </dependency>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-chrome-driver</artifactId>
+      <version>3.141.59</version>
+      <scope>test</scope>
     </dependency>
     <!-- Shiro -->
     <dependency>
@@ -1424,35 +1447,6 @@
           <!-- Sets the VM argument line used when unit tests are run -->
           <argLine>${surefireArgLine}</argLine>
           <redirectTestOutputToFile>true</redirectTestOutputToFile>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>com.github.klieber</groupId>
-        <artifactId>phantomjs-maven-plugin</artifactId>
-        <version>0.7</version>
-        <executions>
-          <execution>
-            <id>phantomjs</id>
-            <phase>test</phase>
-            <goals>
-              <goal>install</goal>
-              <goal>exec</goal>
-            </goals>
-          </execution>
-        </executions>
-        <configuration>
-          <!-- PhantomJS version -->
-          <version>2.1.1</version>
-          <checkSystemPath>false</checkSystemPath>
-          <skip>${skipTests}</skip>
-          <!-- Qunit PhantomJs Runner -->
-          <script>${basedir}/src/test/webapp/h5/js/libs/runner.js</script>
-          <arguments>
-            <!-- Qunit Javascript test suite -->
-            <argument>file:///${basedir}/src/test/webapp/h5/adp-qunit-testsuite.html</argument>
-            <!-- Timeout for asynch tests -->
-            <argument>30</argument>
-          </arguments>
         </configuration>
       </plugin>
       <plugin>
