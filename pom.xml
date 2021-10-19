@@ -34,7 +34,7 @@
     <jetty.version>9.4.44.v20210927</jetty.version>
     <jersey.version>2.35</jersey.version>
     <swagger.version>1.6.2</swagger.version>
-    <swagger-v3.version>2.1.10</swagger-v3.version>
+    <swagger-v3.version>2.1.11</swagger-v3.version>
     <slf4j.version>1.7.31</slf4j.version>
     <bouncycastle.version>1.69</bouncycastle.version>
     <activemq.version>5.16.2</activemq.version>
