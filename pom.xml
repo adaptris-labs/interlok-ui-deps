@@ -29,8 +29,8 @@
     <validation-api.version>2.0.2</validation-api.version>
     <c3p0.version>0.9.5.5</c3p0.version>
     <shiro.version>1.8.0</shiro.version>
-    <jackson.version>2.12.5</jackson.version>
-    <jackson-databind.version>2.12.5</jackson-databind.version>
+    <jackson.version>2.13.0</jackson.version>
+    <jackson-databind.version>2.13.0</jackson-databind.version>
     <jetty.version>9.4.44.v20210927</jetty.version>
     <jersey.version>2.35</jersey.version>
     <swagger.version>1.6.2</swagger.version>
@@ -43,8 +43,8 @@
     <jettison.version>1.4.1</jettison.version>
     <mockito.version>4.0.0</mockito.version>
     <commons.lang3.version>3.12.0</commons.lang3.version>
-    <jsch.version>0.1.63</jsch.version>
-    <dependency.check.maven.version>6.2.2</dependency.check.maven.version>
+    <jsch.version>0.1.69</jsch.version>
+    <dependency.check.maven.version>6.4.1</dependency.check.maven.version>
     <environment>dev</environment>
     <skipTests>false</skipTests>
     <skip.purge>true</skip.purge>
@@ -510,7 +510,7 @@
     <dependency>
       <groupId>net.sf.saxon</groupId>
       <artifactId>Saxon-HE</artifactId>
-      <version>10.5</version>
+      <version>10.6</version>
       <scope>${adapter.library.scope}</scope>
     </dependency>
     <dependency>
@@ -1376,7 +1376,7 @@
           <dependency>
             <groupId>net.sf.saxon</groupId>
             <artifactId>Saxon-HE</artifactId>
-            <version>10.3</version>
+            <version>10.6</version>
           </dependency>
           <dependency>
             <groupId>xerces</groupId>
