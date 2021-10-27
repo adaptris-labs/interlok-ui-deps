@@ -9,6 +9,7 @@ registries:
 updates:
   - package-ecosystem: "maven"
     directory: "/"
+    open-pull-requests-limit: 10
     registries:
       - "interlok"
     schedule:
