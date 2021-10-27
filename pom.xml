@@ -44,6 +44,7 @@
     <mockito.version>4.0.0</mockito.version>
     <commons.lang3.version>3.12.0</commons.lang3.version>
     <jsch.version>0.1.69</jsch.version>
+    <selenium.version>3.141.59</selenium.version>
     <dependency.check.maven.version>6.4.1</dependency.check.maven.version>
     <environment>dev</environment>
     <skipTests>false</skipTests>
@@ -657,18 +658,18 @@
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
-      <version>3.141.59</version>
+      <version>${selenium.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-remote-driver</artifactId>
-      <version>3.141.59</version>
+      <version>${selenium.version}</version>
     </dependency>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-chrome-driver</artifactId>
-      <version>3.141.59</version>
+      <version>${selenium.version}</version>
       <scope>test</scope>
     </dependency>
     <!-- Shiro -->
