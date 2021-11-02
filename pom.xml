@@ -37,7 +37,7 @@
     <swagger-v3.version>2.1.11</swagger-v3.version>
     <slf4j.version>1.7.32</slf4j.version>
     <bouncycastle.version>1.69</bouncycastle.version>
-    <activemq.version>5.16.2</activemq.version>
+    <activemq.version>5.16.3</activemq.version>
     <quartz.version>2.3.2</quartz.version>
     <xerces.version>2.12.1</xerces.version>
     <jettison.version>1.4.1</jettison.version>
@@ -712,7 +712,7 @@
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>30.1.1-jre</version>
+      <version>31.0.1-jre</version>
     </dependency>
     <dependency>
       <groupId>org.reflections</groupId>
@@ -1123,7 +1123,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
-        <version>3.3.1</version>
+        <version>3.3.2</version>
         <configuration>
           <filters>
             <filter>${basedir}/src/main/filters/${environment}.filter.properties</filter>
@@ -1537,7 +1537,7 @@
       <plugin>
         <groupId>com.github.spotbugs</groupId>
         <artifactId>spotbugs-maven-plugin</artifactId>
-        <version>4.3.0</version>
+        <version>4.4.2.2</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
