@@ -43,7 +43,7 @@
     <jettison.version>1.4.1</jettison.version>
     <mockito.version>4.0.0</mockito.version>
     <commons.lang3.version>3.12.0</commons.lang3.version>
-    <jsch.version>0.1.69</jsch.version>
+    <jsch.version>0.1.70</jsch.version>
     <selenium.version>3.141.59</selenium.version>
     <dependency.check.maven.version>6.5.0</dependency.check.maven.version>
     <environment>dev</environment>
