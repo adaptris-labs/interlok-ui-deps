@@ -36,14 +36,14 @@
     <swagger.version>1.6.3</swagger.version>
     <swagger-v3.version>2.1.11</swagger-v3.version>
     <slf4j.version>1.7.32</slf4j.version>
-    <bouncycastle.version>1.69</bouncycastle.version>
+    <bouncycastle.version>1.70</bouncycastle.version>
     <activemq.version>5.16.3</activemq.version>
     <quartz.version>2.3.2</quartz.version>
     <xerces.version>2.12.1</xerces.version>
     <jettison.version>1.4.1</jettison.version>
     <mockito.version>4.1.0</mockito.version>
     <commons.lang3.version>3.12.0</commons.lang3.version>
-    <jsch.version>0.1.70</jsch.version>
+    <jsch.version>0.1.71</jsch.version>
     <selenium.version>3.141.59</selenium.version>
     <dependency.check.maven.version>6.5.0</dependency.check.maven.version>
     <environment>dev</environment>
@@ -722,7 +722,7 @@
     <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-core</artifactId>
-      <version>8.2.0</version>
+      <version>8.2.1</version>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
