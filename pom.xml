@@ -39,7 +39,7 @@
     <bouncycastle.version>1.70</bouncycastle.version>
     <activemq.version>5.16.3</activemq.version>
     <quartz.version>2.3.2</quartz.version>
-    <xerces.version>2.12.1</xerces.version>
+    <xerces.version>2.12.2</xerces.version>
     <jettison.version>1.4.1</jettison.version>
     <mockito.version>4.2.0</mockito.version>
     <commons.lang3.version>3.12.0</commons.lang3.version>
