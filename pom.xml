@@ -24,7 +24,7 @@
     <spring.version>5.3.15</spring.version>
     <xstream.version>1.4.18</xstream.version>
     <derby.version>10.15.2.0</derby.version>
-    <hibernate.version>5.6.0.Final</hibernate.version>
+    <hibernate.version>5.6.4.Final</hibernate.version>
     <hibernate.validator.version>6.1.7.Final</hibernate.validator.version>
     <validation-api.version>2.0.2</validation-api.version>
     <c3p0.version>0.9.5.5</c3p0.version>
@@ -39,9 +39,9 @@
     <bouncycastle.version>1.70</bouncycastle.version>
     <activemq.version>5.16.3</activemq.version>
     <quartz.version>2.3.2</quartz.version>
-    <xerces.version>2.12.1</xerces.version>
+    <xerces.version>2.12.2</xerces.version>
     <jettison.version>1.4.1</jettison.version>
-    <mockito.version>4.2.0</mockito.version>
+    <mockito.version>4.3.0</mockito.version>
     <commons.lang3.version>3.12.0</commons.lang3.version>
     <jsch.version>0.1.72</jsch.version>
     <selenium.version>4.1.1</selenium.version>
@@ -722,7 +722,7 @@
     <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-core</artifactId>
-      <version>8.4.1</version>
+      <version>8.4.2</version>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
@@ -1046,6 +1046,7 @@
           </includes>
           <excludes>
             <exclude>js/libs/**</exclude>
+            <exclude>salesforce/forcetk.js</exclude>
           </excludes>
       </configuration>
       </plugin>
@@ -1113,6 +1114,9 @@
                 <jsSourceInclude>js/libs/bootstrap/bootstrap-select-modified.js</jsSourceInclude>
                 <jsSourceInclude>js/knockout/*.js</jsSourceInclude>
               </jsSourceIncludes>
+              <jsSourceExcludes>
+                <jsSourceExclude>salesforce/forcetk.js</jsSourceExclude>
+              </jsSourceExcludes>
             </configuration>
             <goals>
               <goal>minify</goal>
@@ -1156,6 +1160,7 @@
                 <exclude>js/libs/koExternalTemplateEngine_all.js</exclude>
                 <exclude>js/libs/bootstrap/bootstrap-select.js</exclude>
                 <exclude>js/libs/bootstrap/bootstrap-tokenfield.js</exclude>
+                <exclude>salesforce/forcetk.js</exclude>
               <!-- We use the minified version so we don't want this one -->
                 <exclude>js/libs/bootstrap/bootstrap.js</exclude>
               </excludes>
@@ -1188,6 +1193,7 @@
             h5/js/libs/properties-parser.js,
             h5/js/libs/rgbcolor.js,
             h5/js/libs/bootstrap/bootstrap-select-modified.js,
+            h5/salesforce/forcetk-modified.js,
             h5/css/common.css,h5/css/widget.css,h5/css/login.css
              -->
           </warSourceExcludes>
