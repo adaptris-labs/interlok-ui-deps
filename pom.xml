@@ -41,7 +41,7 @@
     <quartz.version>2.3.2</quartz.version>
     <xerces.version>2.12.2</xerces.version>
     <jettison.version>1.4.1</jettison.version>
-    <mockito.version>4.3.0</mockito.version>
+    <mockito.version>4.3.1</mockito.version>
     <commons.lang3.version>3.12.0</commons.lang3.version>
     <jsch.version>0.1.72</jsch.version>
     <selenium.version>4.1.1</selenium.version>
