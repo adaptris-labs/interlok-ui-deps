@@ -34,7 +34,7 @@
     <jetty.version>9.4.45.v20220203</jetty.version>
     <jersey.version>2.35</jersey.version>
     <swagger.version>1.6.5</swagger.version>
-    <swagger-v3.version>2.1.12</swagger-v3.version>
+    <swagger-v3.version>2.1.13</swagger-v3.version>
     <slf4j.version>1.7.36</slf4j.version>
     <bouncycastle.version>1.70</bouncycastle.version>
     <activemq.version>5.16.4</activemq.version>
@@ -1491,7 +1491,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
-        <version>3.10.0</version>
+        <version>3.11.0</version>
       </plugin>
       <plugin>
         <groupId>org.owasp</groupId>
@@ -1533,7 +1533,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-pmd-plugin</artifactId>
-        <version>3.15.0</version>
+        <version>3.16.0</version>
         <configuration>
           <linkXref>true</linkXref>
           <sourceEncoding>${encoding}</sourceEncoding>
