@@ -37,7 +37,7 @@
     <swagger-v3.version>2.1.13</swagger-v3.version>
     <slf4j.version>1.7.36</slf4j.version>
     <bouncycastle.version>1.70</bouncycastle.version>
-    <activemq.version>5.16.4</activemq.version>
+    <activemq.version>5.17.0</activemq.version>
     <quartz.version>2.3.2</quartz.version>
     <xerces.version>2.12.2</xerces.version>
     <jettison.version>1.4.1</jettison.version>
