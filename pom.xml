@@ -31,7 +31,7 @@
     <shiro.version>1.9.0</shiro.version>
     <jackson.version>2.13.2</jackson.version>
     <jackson-databind.version>2.13.2.1</jackson-databind.version>
-    <jetty.version>9.4.45.v20220203</jetty.version>
+    <jetty.version>11.0.9</jetty.version>
     <jersey.version>2.35</jersey.version>
     <swagger.version>1.6.5</swagger.version>
     <swagger-v3.version>2.1.13</swagger-v3.version>
