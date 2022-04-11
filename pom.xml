@@ -1459,7 +1459,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.7</version>
+        <version>0.8.8</version>
         <executions>
           <execution>
             <id>pre-unit-test</id>
@@ -1568,7 +1568,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.7</version>
+        <version>0.8.8</version>
         <configuration>
           <!-- Sets the path to the file which contains the execution data. -->
           <destFile>${jacoco.exec.path}</destFile>
