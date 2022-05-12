@@ -44,7 +44,7 @@
     <mockito.version>4.4.0</mockito.version>
     <commons.lang3.version>3.12.0</commons.lang3.version>
     <jsch.version>0.2.0</jsch.version>
-    <selenium.version>4.1.3</selenium.version>
+    <selenium.version>4.1.4</selenium.version>
     <dependency.check.maven.version>6.5.3</dependency.check.maven.version>
     <environment>dev</environment>
     <skipTests>false</skipTests>
@@ -728,7 +728,7 @@
     <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-core</artifactId>
-      <version>8.5.7</version>
+      <version>8.5.10</version>
     </dependency>
     <dependency>
       <groupId>io.swagger</groupId>
